@@ -1,0 +1,100 @@
+/* team.css */
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header img {
+  border-radius: 10px;
+}
+
+nav {
+  background-color: #33691e;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  color: #c8e6c9;
+}
+
+.logo {
+  height: 40px;
+  vertical-align: middle;
+}
+
+main {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+article {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  background-color: #f1f8e9;
+}
+
+figure {
+  margin: 0;
+  text-align: center;
+}
+
+figure img {
+  border-radius: 10px;
+}
+
+aside {
+  background-color: #f1f8e9;
+  padding: 10px;
+  border-left: 5px solid #c8e6c9;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #c8e6c9;
+  color: black;
+  text-align: center;
+  padding: 25px 0;
+  font-size: 0.9em;
+  border-top: 5px solid #c8e6c9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  main {
+    padding: 20px;
+  }
+}

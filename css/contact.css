@@ -1,0 +1,94 @@
+/* contact.css */
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f1f8e9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+nav {
+  background-color: #33691e;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.logo {
+  height: 40px;
+  vertical-align: middle;
+}
+
+main {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #2e7d32;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+form {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  background-color: #e8f5e9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+fieldset {
+  border: 2px solid #66bb6a;
+  padding: 15px;
+}
+
+legend {
+  font-weight: bold;
+  color: #1b5e20;
+}
+
+input, select, textarea, button {
+  width: 100%;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #66bb6a;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #43a047;
+}
+
+footer {
+  background-color: #c8e6c9;
+  color: black;
+  text-align: center;
+  padding: 25px 0;
+  font-size: 0.9em;
+  border-top: 5px solid #c8e6c9;
+}
